@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_gradient"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="540dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        tools:ignore="MissingConstraints">
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="150dp"
+            android:src="@drawable/sign"></ImageView>
+        <EditText
+            android:id="@+id/ed"
+            android:layout_width="330dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/textbox_back"
+            android:drawableLeft="@drawable/ic_person_outline_white_24dp"
+            android:padding="5dp"
+            android:hint=" USER NAME"
+            android:textColorHint="@color/colorHint"
+            android:textColor="@color/colorInput"
+            android:textSize="22sp"
+            ></EditText>
+        <EditText
+            android:id="@+id/ed1"
+            android:layout_width="330dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/textbox_back"
+            android:drawableLeft="@drawable/ic_person_outline_white_24dp"
+            android:padding="5dp"
+            android:hint="Password"
+            android:textColorHint="@color/colorHint"
+            android:textColor="@color/colorInput"
+            android:textSize="22sp"
+            android:inputType="textPassword"
+            ></EditText>
+        <Button
+            android:id="@+id/btn"
+            android:layout_width="330dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:textSize="22sp"
+            android:text="Login"
+            android:textColor="@color/colorInput"
+            android:background="@drawable/loginbutton_back"
+            ></Button>
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="330dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:textSize="22sp"
+            android:text="Register"
+            android:textColor="@color/colorInput"
+            android:background="@drawable/loginbutton_back"
+            ></Button>
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
