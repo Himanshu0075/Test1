@@ -5,7 +5,7 @@ public class Product  {
     private double price;
     private int qty;
 
-    public Product(){
+    public Product(String pepsi, String $2, String home_screen){
 
     }
 
